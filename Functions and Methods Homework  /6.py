@@ -1,9 +1,8 @@
 def palindrome(s):
+    # REMOVE SPACES STRING
     s = s.replace(" ", "")
-    if s == s[::-1]:
-        print(True)
-    else:
-        print(False)
+    # Check is string is == reversed version of the string
+    print(s == s[::-1])
 
 
 palindrome('helleh')
