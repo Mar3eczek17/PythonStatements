@@ -1,8 +1,9 @@
 def paper_doll(text):
-    out = []
-    for i in text:
-        out.append(i * 3)
-    print("".join(out))
+    result = ''
+
+    for char in text:
+        result += char * 3
+    return result
 
 
 # Check
