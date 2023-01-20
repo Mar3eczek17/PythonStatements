@@ -14,5 +14,5 @@ Joining User Inputs and Logic Flow
 - The board should be printed out every time a player makes a move
 - You should be able to accept input of the player position and then place a symbol on the board
 
-Idea:
+**Idea:
 - I will use the "numpad" to match numbers to the grid on a tic tac toe board: 1-9
